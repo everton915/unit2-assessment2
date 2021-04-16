@@ -1,14 +1,212 @@
-/* 
+.header{
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  font-family: verdana;
+  letter-spacing: 3px;
+  font-size: 30px;
+  top: 15px;
+  color: rgb(126, 218, 255);
+}
 
-these are the colors used in the example
-***you can use them if you'd like or you can choose your own***
+.banner {
+  background:rgb(57, 59, 61);
+  width: 1922px;
+  position: relative;
+  left: -10px;
+  bottom: 8px;
+  height: 95px;
+}
 
-black - rgb(37, 37, 37)
-blue - rgb(42, 171, 226)
-shadow - rgba(102, 75, 75, .3)
-white - rgb(255, 255, 255) (default value) 
+.banner2 {
+  position: relative;
+  top: 375px;
+  background-color: rgb(126, 218, 255); 
+  height: 55px;
+  width: 1922px;
+  left: -10px;
+}
 
-the font is called 'nunito' and can be found on google fonts
-***you can use it if you'd like or you can choose your own***
+.menu{
+  display: inline-block;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: stretch;
+  font-size: 20px;
+  font-family: verdana;
+  position: relative;
+  left: 1105px;
+  top: 10px;
+  color: white;
+  padding: 20px;
+}
 
-*/
+.h1{
+  display: inline-block;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: stretch;
+  font-size: 25px;
+  position: relative;
+  top: 25px;
+  left: 150px;
+  font-family: verdana;
+}
+
+.h2{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: stretch;
+  font-family: verdana;
+  font-size: 15px;
+  top: 10px;
+  position: relative;
+  padding-left: 150px;
+  padding-right: 600px;
+  font-weight: 50;
+}
+
+.imgGallery{
+  display: inline-block;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: stretch;
+  font-size: 23px;
+  position: relative;
+  top: 25px;
+  font-family: verdana;
+  left: 150px;
+} 
+
+.vl{
+  font-family: verdana;
+  font-size: 12px;
+  position: relative;
+  left: 815px;
+  top: 33px;
+  color:  rgb(36, 187, 247); 
+}
+
+.gallery {
+ height: 130px;
+ width: 200px;
+ display: inline-flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: flex-end;
+ align-content: space-around;
+ padding: 15px;
+ position: relative;
+ top: 25px;
+ left: 175px;
+}
+
+.gallery2{
+ height: 130px;
+ width: 200px;
+ display: inline-flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: flex-end;
+ align-content: space-around;
+ padding: 15px;
+ position: relative;
+ top: 200px;
+ left: -527px;
+} 
+
+.profile{
+  width: 170px;
+  height:170px;
+  position: relative;
+  top: -1190px;
+  left: 1445px;
+} 
+ 
+.name {
+  position: relative;
+  left: 1475px;
+  bottom: 1150px;
+  font-family: verdana;
+  font-size: 20px;
+} 
+
+.box1 {
+ width: 259px;
+ height: 265px;
+ border-style: none;
+ border-color: black;
+ position: relative;
+ left: 1405px;
+ top: -935px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 15px 8px rgba(0,0,0,0.2);
+ margin: 0px;
+}
+
+.box2 {
+  width: 265px;
+ height: 375px;
+ border-style: none;
+ border-color: black;
+ position: relative;
+ left: 1405px;
+ top: -1100px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 15px 8px rgba(0,0,0,0.2);
+ margin: 0px;
+}
+
+.particles {
+  position: relative;
+  bottom: 1465px;
+  padding-left: 1460px;
+  font-family: verdana;
+  font-size: medium;
+}
+
+.ol {
+  position: relative;
+  padding-left: 1425px;
+  font-family: verdana;
+  font-size: small;
+  bottom: 1450px;
+  margin-bottom: 1px;
+  justify-content: space-between;
+
+}
+
+.btnScrollingQuestion {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(126, 218, 255); 
+  margin: 0px;
+
+}
+
+
+.footer {
+  font-family: verdana;
+  text-size: 15px;
+  position: relative;
+  padding-left: 20px;
+  top: 23px;
+  margin: 0px;
+}
