@@ -8,7 +8,7 @@
     Call the array 'myArr'.
 */
 
-//CODE HERE
+const myArr = [4, 'abc', 'cat', 'dog', 'bird', 77];
 
 
 ////////////////////PROBLEM 2////////////////////
@@ -20,7 +20,7 @@
 
 const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
 
-//CODE HERE
+let foundZ = 
 
 
 ////////////////////PROBLEM 3////////////////////
@@ -36,7 +36,7 @@ const savannah = ['lion', 'zebra', 'lion', 'giraffe']
 const desert = ['rattlesnake', 'coyote']
 //DO NOT EDIT CODE ABOVE
 
-//CODE HERE
+const animals = [];
 
 
 /*
