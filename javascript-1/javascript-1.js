@@ -20,7 +20,7 @@ const myArr = [4, 'abc', 'cat', 'dog', 'bird', 77];
 
 const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
 
-let foundZ = 
+// let foundZ = 
 
 
 ////////////////////PROBLEM 3////////////////////
@@ -75,7 +75,11 @@ const animals = [];
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-//CODE HERE
+jsNinja = () => "I am a JavaScript ninja!";
+
+    
+ 
+
   
 
 ////////////////////PROBLEM 7////////////////////
@@ -96,7 +100,6 @@ const animals = [];
     delete the rating property off of the gameInfo object.
 */
 
-//CODE HERE
   
 
 ////////////////////PROBLEM 8////////////////////
@@ -160,7 +163,15 @@ const classes = [
     all online classes with no homework.
 */
 
-//CODE HERE
+for(let i = 0; i < class.lenght i++){
+    for(let key in classes[i]){
+        if(classes[i][key] === true){
+         classes[i][key] = false
+        }
+    }
+}
+
+console.log(classes)
 
   
 ////////////////////PROBLEM 10////////////////////

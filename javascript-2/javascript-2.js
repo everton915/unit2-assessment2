@@ -80,7 +80,17 @@ const products = [
   Save the copy to a new variable called 'saleProducts'.
 */
 
-//CODE HERE
+const saleProducts = products.map((element) => {
+  const newObj = {
+    name: element.name,
+    color: element.color,
+    price: element.price * .75,
+  }
+  return newObj
+})
+
+console.log(saleProducts)
+
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -90,7 +100,11 @@ const products = [
   (Hint: look up the array method 'includes' on MDN)
 */
 
-//CODE HERE
+const blueProducts = saleProducts.filter((element) => {
+  return element.color.includes('blue')
+})
+
+console.log(blueProducts)
 
 ////////////////////PROBLEM 4////////////////////
 /*
@@ -231,7 +245,9 @@ const userInfo = {
   gn@rly_c0der_007's 2nd comment using dot/bracket notation.
 */
 
-//CODE HERE
+const commenterId = userInfo.comments[1].responses[0].userId
+
+console.log(commenterId)
 
 ////////////////////PROBLEM 12////////////////////
 /*
@@ -250,7 +266,31 @@ const userInfo = {
       - create at least 2 kid objects
 */
 
-//CODE HERE
+const person = {
+ name: 'Ty',
+ age: 28,
+ jobs: ['Account Executive', 'Sales & Service', 'Maintenenace'],
+ birtday: function(){
+   this.age ++
+ },
+ favorites: {
+   color: 'sky blue',
+   number: 15,
+   book: 'The Alchemist'
+ },
+ kids: [
+   {
+     name: 'River',
+     age: 1
+   },
+   {
+     name: 'Lake',
+     age: 1
+   }
+ ]
+}
+
+
 
 //////////////////////////////////PROBLEMS 13-14//////////////////////////////////
 /*
